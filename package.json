@@ -1,5 +1,5 @@
 {
-  "name": "insomnia-keychain-reader",
+  "name": "insomnia-plugin-keychain-reader",
   "version": "1.0.0",
   "description": "",
   "main": "plugin.js",
