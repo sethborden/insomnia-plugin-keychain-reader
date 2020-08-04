@@ -1,0 +1,17 @@
+{
+  "name": "insomnia-keychain-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "plugin.js",
+  "insomnia": {
+    "name": "keychain-reader",
+    "displayName": "MacOS Keychain Reader",
+    "description": "Reads a value from a `security` file in MacOS"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
