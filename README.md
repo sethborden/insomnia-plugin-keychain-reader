@@ -1,6 +1,6 @@
 # insomnia-plugin-keychain-reader
 
-Super simple (insomnia)[http://insomnia.rest] plugin that lets you pull values out your MacOS keychain and use them in template tags. Rather than hardcoding passwords/API tokens, etc. into your Insomnia environment, you can store them in your keychain and pull them out of there.
+Super simple [insomnia](http://insomnia.rest) plugin that lets you pull values out your MacOS keychain and use them in template tags. Rather than hardcoding passwords/API tokens, etc. into your Insomnia environment, you can store them in your keychain and pull them out of there.
 
 ## Getting a value
 In a place where you can type a template, type `keychain`, wait for the template tag logic to pick things up, then pick `keychain` off the list. Click on the value and set your *account* and *service* values from which the password will get pulled.
