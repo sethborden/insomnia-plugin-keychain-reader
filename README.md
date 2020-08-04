@@ -4,6 +4,13 @@ Super simple [insomnia](http://insomnia.rest) plugin that lets you pull values o
 
 ## Installation
 
+### Install with Insomnia
+
+ 1. Preferences -> Plugins
+ 2. Enter `insomnia-plugin-keychain-reader` in the box that says "npm-package-name"
+ 3. Click "Install Plugin"
+
+### Clone it yourself...
 Clone this repo into your `~/Library/Application Support/Insomnia/plugins` directory. I.e. --
 
 ```sh
