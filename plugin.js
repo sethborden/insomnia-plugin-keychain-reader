@@ -57,7 +57,7 @@ module.exports.workspaceActions = [{
       execSync(`security add-generic-password -a ${account} -s ${service} -w ${password}`)
       context.app.alert(`Saved password for ${account} in ${service}!`);
     } catch(err) {
-      cotext.app.alert('Error saving password, try doing it manually?');
+      context.app.alert(`Error saving password, try doing it manually? Error: ${err}`);
     }
   },
 }]
